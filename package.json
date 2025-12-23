@@ -1,0 +1,23 @@
+{
+  "name": "ticketboss",
+  "version": "1.0.0",
+  "description": "Event ticketing API with optimistic concurrency control",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "ticketing",
+    "api",
+    "concurrency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2"
+  }
+}
+
